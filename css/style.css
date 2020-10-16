@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* UTILITY */
+.bg_aqua {
+  background: #afebe4;
+}
+
+.bg_azgrey {
+  background: #f4f9fd;
+}
+
+.bg_blue {
+  background: #32495b;
+}
+
+.bg_darkorange {
+  background: #fe785a;
+}
+
+.bg_lightorange {
+  background: #fff2ee
+}
+/* /UTILITY */
+
+#site_header {
+  height: 600px;
+}
+
+#site_content {
+  height: 1000px;
+}
+
+#site_footer {
+  height: 400px;
+}
