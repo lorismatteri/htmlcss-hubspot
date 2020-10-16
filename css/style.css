@@ -24,7 +24,10 @@
 .bg_lightorange {
   background: #fff2ee
 }
-/* /UTILITY */
+
+.f_left {
+  float: left;
+}
 
 #site_header {
   height: 600px;
@@ -37,7 +40,39 @@
 #site_footer {
   height: 400px;
 }
+/* /UTILITY */
 
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.container::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* SEZIONE NAVBAR */
+.navbar {
+  height: 80px;
+}
+
+.top {
+  border-bottom: 1px solid #32495b;
+}
+
+.bottom {
+  background: white;
+}
+
+.nav_top_left, .nav_top_right {
+  background: red;
+  border: 1px solid green;
+  height: 80px;
+  width: 50%;
+}
+
+/* SEZIONE MAIN */
 .row {
   height: 33.33%;
 }
@@ -59,7 +94,6 @@
 }
 
 .col_3 {
-  float: left;
   width: 33.33%;
   height: 100%;
   border: 1px solid red;
