@@ -31,9 +31,36 @@
 }
 
 #site_content {
-  height: 1000px;
+  height: 2000px;
 }
 
 #site_footer {
   height: 400px;
+}
+
+.row {
+  height: 33.33%;
+}
+
+.gradient {
+  background-image: linear-gradient(to right, #00a6bc, #00bda6);
+
+}
+
+.row_in::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.row_in {
+  height: 33.33%;
+  border: 1px solid black;
+}
+
+.col_3 {
+  float: left;
+  width: 33.33%;
+  height: 100%;
+  border: 1px solid red;
 }
