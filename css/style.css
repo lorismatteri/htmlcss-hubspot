@@ -4,6 +4,9 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: 'Montserrat', sans-serif;
+}
 /* UTILITY */
 .bg_aqua {
   background: #afebe4;
@@ -40,6 +43,10 @@
 #site_footer {
   height: 400px;
 }
+
+.pr_15 {
+  padding-right: 15px;
+}
 /* /UTILITY */
 
 .container {
@@ -55,6 +62,7 @@
 /* SEZIONE NAVBAR */
 .navbar {
   height: 80px;
+  color: #32495b;
 }
 
 .top {
@@ -66,10 +74,41 @@
 }
 
 .nav_top_left, .nav_top_right {
-  background: red;
-  border: 1px solid green;
   height: 80px;
   width: 50%;
+  line-height: 80px;
+}
+
+.nav_top_right {
+  text-align: right;
+}
+
+.nav_top_left a, .nav_top_right a {
+  text-decoration: none;
+  padding: 10px 15px;
+}
+
+.nav_top_left a {
+  color: #32495b;
+}
+
+.chevron {
+  border-right: 2px solid #32495b;
+}
+
+.nav_top_right i {
+  color: #00A4BD;
+}
+
+.btn_border {
+  border: 1px solid #fe785a;
+  border-radius: 10px;
+  color: #fe785a;
+}
+
+.btn_orange {
+  color: white;
+  border-radius: 10px;
 }
 
 /* SEZIONE MAIN */
