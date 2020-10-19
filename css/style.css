@@ -33,10 +33,6 @@ body {
   float: left;
 }
 
-/* #site_content {
-  height: 3000px;
-} */
-
 #site_footer {
   height: 400px;
 }
@@ -295,6 +291,17 @@ body {
 .gradient {
   height: 600px;
   background-image: linear-gradient(to right, #00a6bc, #00bda6);
+  color: white;
+}
+
+.gradient_title h2 {
+  font-size: 2em;
+  padding: 50px 10px;
+}
+
+.gradient_title p {
+  line-height: 2em;
+  padding-bottom: 50px;
 }
 
 .row_white {
