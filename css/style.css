@@ -108,11 +108,14 @@ body {
   border: 1px solid #fe785a;
   border-radius: 10px;
   color: #fe785a;
+  font-size: 0.8em;
 }
 
 .btn_orange {
   color: white;
   border-radius: 10px;
+  font-size: 0.8em;
+  border: 1px solid #fe785a;
 }
 
 .logo {
@@ -156,7 +159,7 @@ body {
 }
 
 .p_sm{
-  font-weight: 300;
+  font-weight: 500;
   font-size: 0.8em;
   margin-top: 30px;
 }
@@ -345,14 +348,11 @@ body {
 /* /UTILITY CELL BORDERS */
 
 .row_white {
-  height: 750px;
   color: #32495b;
 }
 
 .customers {
-  height: 294px;
   padding: 60px;
-  border: 1px solid black;
 }
 
 .customers::after {
@@ -399,4 +399,35 @@ body {
 .logo_cell img {
   width: 100%;
   padding: 20px;
+}
+
+.woman::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.woman_text, .woman_img {
+  width: 50%;
+  padding-bottom: 50px;
+}
+
+.woman_text h2 {
+  font-size: 1.75em;
+  padding: 30px 0;
+}
+
+.woman_text p {
+  width: 90%;
+  line-height: 2em;
+  padding-bottom: 30px;
+  font-weight: 500;
+}
+
+.woman_img {
+  text-align: right;
+}
+
+.woman_img img {
+  width: 50%;
 }
