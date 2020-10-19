@@ -5,6 +5,7 @@
 }
 
 body {
+  min-width: 1400px;
   font-family: 'Montserrat', sans-serif;
 }
 /* UTILITY */
@@ -33,7 +34,7 @@ body {
 }
 
 #site_content {
-  height: 2000px;
+  height: 3000px;
 }
 
 #site_footer {
@@ -46,6 +47,10 @@ body {
 
 .center {
   text-align: center;
+}
+
+.p_80 {
+  padding: 80px;
 }
 /* /UTILITY */
 
@@ -92,7 +97,7 @@ body {
 }
 
 .border_rigth {
-  border-right: 2px solid #32495b;
+  border-right: 2px solid grey;
 }
 
 .nav_top_right i {
@@ -145,20 +150,19 @@ body {
 .banner_text p {
   line-height: 2em;
   font-weight: 500;
-  margin-bottom: 60px;
+  margin-bottom: 50px;
 }
 
 .btn_big {
-  display: inline block;
   text-decoration: none;
   padding: 20px 40px;
-  margin-bottom: 30px;
+  display: inline-block;
 }
 
 .p_sm{
   font-weight: 300;
   font-size: 0.8em;
-  margin-top: 60px;
+  margin-top: 30px;
 }
 
 .row_empty {
@@ -175,10 +179,6 @@ body {
   height: 33.33%;
 }
 
-.gradient {
-  background-image: linear-gradient(to right, #00a6bc, #00bda6);
-}
-
 .row_1 {
   padding: 50px;
   color: #32495b;
@@ -193,13 +193,78 @@ body {
   position: relative;
   left: 50%;
   transform: translateX(-50%);
-  line-height: 1.5em;
+  line-height: 2em;
   width: 65%;
 }
 
 .row_2 {
-  height: 33.33%;
-  border-top: 1px solid black;
+  color: #32495b;
+}
+
+.white_box {
+  background: white;
+  margin-bottom: 50px;
+  border-radius: 10px;
+}
+
+.row_2_logo {
+  width: 25%;
+}
+
+.row_2_logo img {
+  height: 110px;
+  margin-bottom: 30px;
+}
+
+.row_2_text {
+  width: 75%;
+  padding: 0 50px;
+}
+
+.row_2_text h3 {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+.row_2_text p {
+  line-height: 2em;
+  margin-bottom: 15px;
+}
+
+.title_container::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.title_container {
+  margin-bottom: 20px;
+}
+
+.row_2_text h4 {
+  font-size: 1.25em;
+  margin-bottom: 15px;
+  margin-right: 70px;
+}
+
+.row_2_text hr {
+  width: 60%;
+  border: 1px solid grey;
+  margin-top: 10px;
+}
+
+.row_2_text ul {
+  list-style: none;
+}
+
+.row_2_text li {
+  display: inline-block;
+  padding: 0 20px;
+}
+
+.row_2_text i {
+  color: #fe785a;
+  margin-right: 15px;
 }
 
 .row_3 {
@@ -216,4 +281,8 @@ body {
   width: 33.33%;
   height: 100%;
   border: 1px solid red;
+}
+
+.gradient {
+  background-image: linear-gradient(to right, #00a6bc, #00bda6);
 }
