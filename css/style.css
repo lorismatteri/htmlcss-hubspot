@@ -328,6 +328,7 @@ body {
   font-size: 0.8em;
   padding-bottom: 10px;
 }
+
 /* UTILITY CELL BORDERS */
 .bb {
   border-bottom: 1px solid white;
@@ -342,6 +343,60 @@ body {
 }
 
 /* /UTILITY CELL BORDERS */
+
 .row_white {
-  height: 600px;
+  height: 750px;
+  color: #32495b;
+}
+
+.customers {
+  height: 294px;
+  padding: 60px;
+  border: 1px solid black;
+}
+
+.customers::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.customers_text {
+  width: 25%;
+}
+
+.customers_text h2 {
+  font-size: 3em;
+  font-weight: 700;
+  padding-bottom: 20px;
+}
+
+.customers_text p {
+  line-height: 1.75em;
+}
+
+.customers_logos {
+  float: right;
+  height: 100%;
+  text-align: right;
+  width: 55%;
+}
+
+.customers_logos::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.logo_col {
+  width: 25%;
+}
+
+.logo_cell {
+  height: 85px;
+}
+
+.logo_cell img {
+  width: 100%;
+  padding: 20px;
 }
