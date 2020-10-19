@@ -63,6 +63,7 @@ body {
 .navbar {
   height: 80px;
   color: #32495b;
+  line-height: 80px;
 }
 
 .top {
@@ -73,31 +74,33 @@ body {
   background: white;
 }
 
-.nav_top_left, .nav_top_right {
-  height: 80px;
+.nav_top_left, .nav_top_right, .menu, .logo {
   width: 50%;
-  line-height: 80px;
 }
 
-.nav_top_right {
+.nav_top_right, .menu {
   text-align: right;
 }
 
-.nav_top_left a, .nav_top_right a {
+.navbar a {
   text-decoration: none;
   padding: 10px 15px;
 }
 
-.nav_top_left a {
+.nav_top_left a, .menu a {
   color: #32495b;
 }
 
-.chevron {
+.border_rigth {
   border-right: 2px solid #32495b;
 }
 
 .nav_top_right i {
   color: #00A4BD;
+}
+
+.nav_top_right a {
+  margin: 0 15px;
 }
 
 .btn_border {
@@ -111,6 +114,9 @@ body {
   border-radius: 10px;
 }
 
+.logo {
+  margin-top: 10px;
+}
 /* SEZIONE MAIN */
 .row {
   height: 33.33%;
