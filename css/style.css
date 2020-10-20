@@ -34,7 +34,7 @@ body {
 }
 
 #site_footer {
-  height: 600px;
+  height: 700px;
   color: #f4f9fd;
 }
 
@@ -437,8 +437,24 @@ body {
 
 .col_4_foot {
   width: 25%;
-  height: 300px;
-  border: 1px solid white;
+  padding-top: 50px;
+}
+
+.col_4_foot h4 {
+  font-size: 1.25em;
+  color: white;
+  padding-bottom: 40px;
+}
+
+.col_4_foot a {
+  display: block;
+  text-decoration: none;
+  color: #f4f9fd;
+  padding-bottom: 20px;
+}
+
+#site_footer a:hover {
+  color: #7fd1de;
 }
 
 .contact_links {
@@ -452,6 +468,10 @@ body {
   width: 100%;
   height: 100px;
   border: 1px solid white;
+}
+
+#site_footer hr {
+  border: 1px solid red;
 }
 
 .logo_foot, .privacy {
