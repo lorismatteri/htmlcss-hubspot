@@ -34,7 +34,6 @@ body {
 }
 
 #site_footer {
-  height: 700px;
   color: #f4f9fd;
 }
 
@@ -489,21 +488,32 @@ body {
 #lang_list li {
   display: inline-block;
   padding: 0 15px;
-  font-size: 1.2em;
   margin: 20px 0;
 }
 
-#lang_list a {
+#lang_list a, .privacy a {
   text-decoration: none;
   color: #f4f9fd;
 }
 
 #site_footer hr {
-  border: 1px solid red;
+  border: 1px solid #f4f9fd;
+  margin-top: 15px;
 }
 
 .logo_foot, .privacy {
   width: 50%;
-  height: 100px;
-  border: 1px solid white;
+  padding: 40px 0;
+}
+
+#logo_credits {
+  margin-top: 10px;
+}
+
+.privacy {
+  text-align: right;
+}
+
+.privacy a:first-child {
+  padding-right: 15px;
 }
