@@ -457,11 +457,28 @@ body {
   color: #7fd1de;
 }
 
-.contact_links {
-  width: 100%;
-  height: 100px;
-  text-align: right;
+#btn_foot {
+  display: inline-block;
+  color: #32495b;
+  border-radius: 10px;
   border: 1px solid white;
+  padding: 15px 10px;
+  margin-bottom: 20px;
+  font-size: 0.9em;
+  font-weight: 500;
+}
+
+#socials {
+  list-style: none;
+}
+
+#socials li {
+  display: inline-block;
+  padding: 0 12px;
+}
+
+#socials li:first-child {
+  padding-left: 0;
 }
 
 .languages {
