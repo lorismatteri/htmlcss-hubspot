@@ -8,6 +8,7 @@ body {
   min-width: 1400px;
   font-family: 'Montserrat', sans-serif;
 }
+
 /* UTILITY */
 .bg_aqua {
   background: #afebe4;
@@ -31,10 +32,6 @@ body {
 
 .f_left {
   float: left;
-}
-
-#site_footer {
-  color: #f4f9fd;
 }
 
 .pr_15 {
@@ -68,11 +65,16 @@ body {
 }
 
 .top {
+  width: 100%;
   border-bottom: 1px solid #32495b;
+  position: fixed;
+  top: 0;
+  z-index: 999;
 }
 
 .bottom {
   background: white;
+  margin-top: 80px;
 }
 
 .nav_top_left, .nav_top_right, .menu, .logo {
@@ -433,6 +435,9 @@ body {
 }
 
 /* SEZIONE FOOTER */
+#site_footer {
+  color: #f4f9fd;
+}
 
 .col_4_foot {
   width: 25%;
@@ -512,8 +517,4 @@ body {
 
 .privacy {
   text-align: right;
-}
-
-.privacy a:first-child {
-  padding-right: 15px;
 }
